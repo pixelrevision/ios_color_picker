@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D654222A1730761B0064828D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65422291730761B0064828D /* UIKit.framework */; };
+		D654222C1730761B0064828D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D654222B1730761B0064828D /* Foundation.framework */; };
+		D654222E1730761B0064828D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D654222D1730761B0064828D /* CoreGraphics.framework */; };
+		D65422341730761B0064828D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D65422321730761B0064828D /* InfoPlist.strings */; };
+		D65422361730761B0064828D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65422351730761B0064828D /* main.m */; };
+		D654223A1730761B0064828D /* PXRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D65422391730761B0064828D /* PXRAppDelegate.m */; };
+		D654223C1730761B0064828D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D654223B1730761B0064828D /* Default.png */; };
+		D654223E1730761B0064828D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D654223D1730761B0064828D /* Default@2x.png */; };
+		D65422401730761B0064828D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D654223F1730761B0064828D /* Default-568h@2x.png */; };
+		D65422431730761B0064828D /* PXRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65422421730761B0064828D /* PXRViewController.m */; };
+		D65422461730761B0064828D /* PXRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65422441730761B0064828D /* PXRViewController_iPhone.xib */; };
+		D65422491730761B0064828D /* PXRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65422471730761B0064828D /* PXRViewController_iPad.xib */; };
+		D65422581730769E0064828D /* PXRColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D65422531730769E0064828D /* PXRColorPicker.m */; };
+		D65422591730769E0064828D /* PXRColorPickerDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = D65422551730769E0064828D /* PXRColorPickerDecorator.m */; };
+		D654225A1730769E0064828D /* PXRColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = D65422571730769E0064828D /* PXRColorWheel.m */; };
+		D654225C173077DD0064828D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D654225B173077DD0064828D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D65422261730761B0064828D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65422291730761B0064828D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D654222B1730761B0064828D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D654222D1730761B0064828D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D65422311730761B0064828D /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		D65422331730761B0064828D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D65422351730761B0064828D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D65422371730761B0064828D /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		D65422381730761B0064828D /* PXRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PXRAppDelegate.h; path = Example/PXRAppDelegate.h; sourceTree = "<group>"; };
+		D65422391730761B0064828D /* PXRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXRAppDelegate.m; sourceTree = "<group>"; };
+		D654223B1730761B0064828D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D654223D1730761B0064828D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D654223F1730761B0064828D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D65422411730761B0064828D /* PXRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PXRViewController.h; path = Example/PXRViewController.h; sourceTree = "<group>"; };
+		D65422421730761B0064828D /* PXRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXRViewController.m; sourceTree = "<group>"; };
+		D65422451730761B0064828D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXRViewController_iPhone.xib; sourceTree = "<group>"; };
+		D65422481730761B0064828D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXRViewController_iPad.xib; sourceTree = "<group>"; };
+		D65422521730769E0064828D /* PXRColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRColorPicker.h; path = ../source/PXRColorPicker.h; sourceTree = "<group>"; };
+		D65422531730769E0064828D /* PXRColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRColorPicker.m; path = ../source/PXRColorPicker.m; sourceTree = "<group>"; };
+		D65422541730769E0064828D /* PXRColorPickerDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRColorPickerDecorator.h; path = ../source/PXRColorPickerDecorator.h; sourceTree = "<group>"; };
+		D65422551730769E0064828D /* PXRColorPickerDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRColorPickerDecorator.m; path = ../source/PXRColorPickerDecorator.m; sourceTree = "<group>"; };
+		D65422561730769E0064828D /* PXRColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRColorWheel.h; path = ../source/PXRColorWheel.h; sourceTree = "<group>"; };
+		D65422571730769E0064828D /* PXRColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRColorWheel.m; path = ../source/PXRColorWheel.m; sourceTree = "<group>"; };
+		D654225B173077DD0064828D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65422231730761B0064828D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D654225C173077DD0064828D /* QuartzCore.framework in Frameworks */,
+				D654222A1730761B0064828D /* UIKit.framework in Frameworks */,
+				D654222C1730761B0064828D /* Foundation.framework in Frameworks */,
+				D654222E1730761B0064828D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D654221D1730761B0064828D = {
+			isa = PBXGroup;
+			children = (
+				D654224F173076210064828D /* Headers */,
+				D654222F1730761B0064828D /* Source */,
+				D65422501730762F0064828D /* Nibs */,
+				D65422511730768B0064828D /* ColorPicker */,
+				D65422301730761B0064828D /* Supporting Files */,
+				D65422281730761B0064828D /* Frameworks */,
+				D65422271730761B0064828D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65422271730761B0064828D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65422261730761B0064828D /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65422281730761B0064828D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D654225B173077DD0064828D /* QuartzCore.framework */,
+				D65422291730761B0064828D /* UIKit.framework */,
+				D654222B1730761B0064828D /* Foundation.framework */,
+				D654222D1730761B0064828D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D654222F1730761B0064828D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D65422391730761B0064828D /* PXRAppDelegate.m */,
+				D65422421730761B0064828D /* PXRViewController.m */,
+			);
+			name = Source;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		D65422301730761B0064828D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D65422311730761B0064828D /* Example-Info.plist */,
+				D65422321730761B0064828D /* InfoPlist.strings */,
+				D65422351730761B0064828D /* main.m */,
+				D65422371730761B0064828D /* Example-Prefix.pch */,
+				D654223B1730761B0064828D /* Default.png */,
+				D654223D1730761B0064828D /* Default@2x.png */,
+				D654223F1730761B0064828D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = Example;
+			sourceTree = "<group>";
+		};
+		D654224F173076210064828D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D65422381730761B0064828D /* PXRAppDelegate.h */,
+				D65422411730761B0064828D /* PXRViewController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		D65422501730762F0064828D /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				D65422441730761B0064828D /* PXRViewController_iPhone.xib */,
+				D65422471730761B0064828D /* PXRViewController_iPad.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		D65422511730768B0064828D /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D65422521730769E0064828D /* PXRColorPicker.h */,
+				D65422531730769E0064828D /* PXRColorPicker.m */,
+				D65422541730769E0064828D /* PXRColorPickerDecorator.h */,
+				D65422551730769E0064828D /* PXRColorPickerDecorator.m */,
+				D65422561730769E0064828D /* PXRColorWheel.h */,
+				D65422571730769E0064828D /* PXRColorWheel.m */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65422251730761B0064828D /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D654224C1730761B0064828D /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				D65422221730761B0064828D /* Sources */,
+				D65422231730761B0064828D /* Frameworks */,
+				D65422241730761B0064828D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = D65422261730761B0064828D /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D654221E1730761B0064828D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PXR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = pixelrevision;
+			};
+			buildConfigurationList = D65422211730761B0064828D /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D654221D1730761B0064828D;
+			productRefGroup = D65422271730761B0064828D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65422251730761B0064828D /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65422241730761B0064828D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65422341730761B0064828D /* InfoPlist.strings in Resources */,
+				D654223C1730761B0064828D /* Default.png in Resources */,
+				D654223E1730761B0064828D /* Default@2x.png in Resources */,
+				D65422401730761B0064828D /* Default-568h@2x.png in Resources */,
+				D65422461730761B0064828D /* PXRViewController_iPhone.xib in Resources */,
+				D65422491730761B0064828D /* PXRViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65422221730761B0064828D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65422361730761B0064828D /* main.m in Sources */,
+				D654223A1730761B0064828D /* PXRAppDelegate.m in Sources */,
+				D65422431730761B0064828D /* PXRViewController.m in Sources */,
+				D65422581730769E0064828D /* PXRColorPicker.m in Sources */,
+				D65422591730769E0064828D /* PXRColorPickerDecorator.m in Sources */,
+				D654225A1730769E0064828D /* PXRColorWheel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D65422321730761B0064828D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65422331730761B0064828D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D65422441730761B0064828D /* PXRViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65422451730761B0064828D /* en */,
+			);
+			name = PXRViewController_iPhone.xib;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		D65422471730761B0064828D /* PXRViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65422481730761B0064828D /* en */,
+			);
+			name = PXRViewController_iPad.xib;
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D654224A1730761B0064828D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D654224B1730761B0064828D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D654224D1730761B0064828D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D654224E1730761B0064828D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65422211730761B0064828D /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654224A1730761B0064828D /* Debug */,
+				D654224B1730761B0064828D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D654224C1730761B0064828D /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654224D1730761B0064828D /* Debug */,
+				D654224E1730761B0064828D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D654221E1730761B0064828D /* Project object */;
+}

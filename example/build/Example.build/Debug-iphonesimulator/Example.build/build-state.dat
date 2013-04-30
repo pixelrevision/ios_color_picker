@@ -1,0 +1,442 @@
+TExample
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Info.plist Example/Example-Info.plist
+cProcessPCH /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.pth Example/Example-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example normal i386
+cGenerateDSYMFile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYM /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example
+cCpResource Example/Default@2x.png build/Debug-iphonesimulator/Example.app/Default@2x.png
+cCopyStringsFile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/InfoPlist.strings Example/en.lproj/InfoPlist.strings
+cCpResource Example/Default.png build/Debug-iphonesimulator/Example.app/Default.png
+cCompileXIB /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib
+cCpResource Example/Default-568h@2x.png build/Debug-iphonesimulator/Example.app/Default-568h@2x.png
+cCompileXIB /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib
+cTouch /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000516F1C990000000000000110
+t1366236313
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000516325BE0000000000228FE0
+t1365452222
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000516325BF00000000003DDFA0
+t1365452223
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000516325BF00000000000015F7
+t1365452223
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000516325C000000000001D5750
+t1365452224
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000516325C00000000000000E8D
+t1365452224
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000516325C10000000000AB6230
+t1365452225
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000516325C60000000000001B73
+t1365452230
+s7027
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.h
+c00000000518048DF000000000000108A
+t1367361759
+s4234
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m
+c00000000518049480000000000002056
+t1367361864
+s8278
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.h
+c00000000517ED35D00000000000000C1
+t1367266141
+s193
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m
+c000000005180366700000000000050B4
+t1367357031
+s20660
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.h
+c00000000517B3B950000000000000197
+t1367030677
+s407
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m
+c00000000517B3B910000000000000B77
+t1367030673
+s2935
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Default-568h@2x.png
+c000000005112E13A00000000000048A2
+t1360191802
+s18594
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Default.png
+c000000005112E13A000000000000198C
+t1360191802
+s6540
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Default@2x.png
+c000000005112E13A0000000000003EEB
+t1360191802
+s16107
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Example-Prefix.pch
+c0000000051803E9B0000000000000137
+t1367359131
+s311
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.h
+c0000000051803F7B00000000000000EC
+t1367359355
+s236
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m
+c0000000051803F710000000000000463
+t1367359345
+s1123
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.h
+c000000005180401300000000000000D6
+t1367359507
+s214
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m
+c00000000518040B80000000000000452
+t1367359672
+s1106
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/InfoPlist.strings
+c0000000051803E9B000000000000002D
+t1367359131
+s45
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib
+c00000000518040380000000000001F99
+t1367359544
+s8089
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib
+c000000005180403D00000000000022B0
+t1367359549
+s8880
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m
+c0000000051803E9B0000000000000152
+t1367359131
+s338
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app
+t1367359653
+s306
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYM
+t1367359653
+s102
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Default-568h@2x.png
+t1367359586
+s18594
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Default.png
+t1367359586
+s6540
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Default@2x.png
+t1367359586
+s16107
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example
+t1367359653
+s106348
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Info.plist
+t1367359585
+s899
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/PkgInfo
+t1367359585
+s8
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/InfoPlist.strings
+t1367359586
+s42
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/PXRViewController_iPad.nib
+t1367359586
+s1565
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/PXRViewController_iPhone.nib
+t1367359586
+s1646
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/Example.LinkFileList
+c000000005180406100000000000003BB
+t1367359585
+s955
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.o
+t1367359586
+s93176
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.o
+t1367359586
+s128004
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.o
+t1367359586
+s134792
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.o
+t1367359586
+s83452
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.o
+t1367359653
+s82168
+
+N/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o
+t1367359586
+s3360
+
+N/var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.pth
+t1367359586
+s4678440
+
+NExample/Example-Info.plist
+c0000000051803E9B00000000000005B8
+t1367359131
+s1464
+
+CBuild AST from /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m
+r0
+
+CBuild AST from /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m
+r0
+
+CBuild AST from /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m
+r0
+
+CBuild AST from /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m
+r0
+
+CBuild AST from /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m
+r0
+
+CBuild AST from /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies00aa60ca8030b741^a6d160ca8030b741^---0#1#0#--18"Check dependencies36"A45C7E2B-E775-44FE-AF3E-F2B6B855E964-
+
+CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389054666.402851
+e389054666.609502
+r1
+xCompileC
+xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.o
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m986967ca8030b741^68079cca8030b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m0000000000000000^3802"CompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.o Example/PXRAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -include /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch -MMD -MT dependencies -MF /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.d --serialize-diagnostics /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRAppDelegate.m -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRAppDelegate.o36"29E3AFA5-C2E7-400F-85E4-6F6AE3C1352E-
+
+CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389054666.402862
+e389054666.625315
+r1
+xCompileC
+xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.o
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m4d6767ca8030b741^ec13a0ca8030b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m0000000000000000^3806"CompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.o ../source/PXRColorPicker.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -include /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch -MMD -MT dependencies -MF /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.d --serialize-diagnostics /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPicker.m -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPicker.o36"54EE5964-3C56-46D6-8039-4CB4DCB5D0FD-
+
+CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389054666.403943
+e389054666.626906
+r1
+xCompileC
+xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.o
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.mdc9f67ca8030b741^527ca0ca8030b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m0000000000000000^3860"CompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.o ../source/PXRColorPickerDecorator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -include /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch -MMD -MT dependencies -MF /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.d --serialize-diagnostics /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorPickerDecorator.m -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorPickerDecorator.o36"C353520D-9897-48DA-BA28-4BAD1D8504F8-
+
+CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389052386.151582
+e389052386.226946
+r1
+xCompileC
+xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.o
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.mb8ea26e27730b741^59183ae27730b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m0000000000000000^3800"CompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.o ../source/PXRColorWheel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -include /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch -MMD -MT dependencies -MF /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.d --serialize-diagnostics /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/../source/PXRColorWheel.m -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRColorWheel.o36"81F34DAF-2AAB-4C9B-84F1-7007CB9F8EE2-
+
+CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389054666.402870
+e389054666.609504
+r1
+xCompileC
+xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.o
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m6f6767ca8030b741^240b9cca8030b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m0000000000000000^3820"CompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.o Example/PXRViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -include /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch -MMD -MT dependencies -MF /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.d --serialize-diagnostics /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/PXRViewController.m -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/PXRViewController.o36"D7D5D487-2D7D-4CAA-A56F-2D0D85C083F9-
+
+CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389052386.151391
+e389052386.177312
+r1
+xCompileC
+xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m0de326e27730b741^aa632de27730b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m0000000000000000^3742"CompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o Example/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -include /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch -MMD -MT dependencies -MF /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/main.m -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o36"5FB90FB3-B207-4D4C-AEB1-9E29A85812D2-
+
+CCompileXIB /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib
+s389052386.330003
+e389052386.357266
+r1
+xCompileXIB
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compiling /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib5c8d54e27730b741^81765be27730b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib0000000000000000^1019"CompileXIB Example/en.lproj/PXRViewController_iPad.xib    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/PXRViewController_iPad.nib /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"C9545FDD-C94B-44A7-8C67-4AEC59587A22-
+
+CCompileXIB /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib
+s389052386.329997
+e389052386.785844
+r1
+xCompileXIB
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib
+o2013-04-30 15:06:26.736 Interface Builder Cocoa Touch Tool[3963:f07] CFPreferences: user home directory at file://localhost/Users/pixelrevision/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compiling /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib6d8d54e27730b741^022dc9e27730b741^-245"2013-04-30 15:06:26.736 Interface Builder Cocoa Touch Tool[3963:f07] CFPreferences: user home directory at file://localhost/Users/pixelrevision/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib0000000000000000^1025"CompileXIB Example/en.lproj/PXRViewController_iPhone.xib    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/PXRViewController_iPhone.nib /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/PXRViewController_iPhone.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"936D14BF-46BB-440A-8951-181CA46D81A6-
+
+CCopyStringsFile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/InfoPlist.strings Example/en.lproj/InfoPlist.strings
+s389052386.329979
+e389052386.332246
+r1
+xCopyStringsFile
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj/InfoPlist.strings
+xExample/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Example/en.lproj/InfoPlist.strings838854e27730b741^670e55e27730b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/en.lproj/InfoPlist.strings0000000000000000^629"CopyStringsFile build/Debug-iphonesimulator/Example.app/en.lproj/InfoPlist.strings Example/en.lproj/InfoPlist.strings    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/en.lproj -- Example/en.lproj/InfoPlist.strings36"DC42D54B-5F90-47C5-8315-99F102F3CD4D-
+
+CCpResource Example/Default-568h@2x.png build/Debug-iphonesimulator/Example.app/Default-568h@2x.png
+s389052386.329995
+e389052386.333576
+r1
+xCpResource
+xExample/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/Example.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/Example.app/Default-568h@2x.png408854e27730b741^bf6255e27730b741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Default-568h@2x.png000000000080d041^685"CpResource "Example/Default-568h@2x.png" "build/Debug-iphonesimulator/Example.app/Default-568h@2x.png"    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Default-568h@2x.png" /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app36"271E30DA-61C8-49FC-9A87-6151C1369F37-
+
+CCpResource Example/Default.png build/Debug-iphonesimulator/Example.app/Default.png
+s389052386.329983
+e389052386.336403
+r1
+xCpResource
+xExample/Default.png
+xbuild/Debug-iphonesimulator/Example.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Example.app/Default.png228b54e27730b741^962156e27730b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Default.png000000000080d041^655"CpResource Example/Default.png build/Debug-iphonesimulator/Example.app/Default.png    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Default.png /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app36"E7C0DB63-8156-4754-A1D8-CADBC68298A7-
+
+CCpResource Example/Default@2x.png build/Debug-iphonesimulator/Example.app/Default@2x.png
+s389052386.329988
+e389052386.336585
+r1
+xCpResource
+xExample/Default@2x.png
+xbuild/Debug-iphonesimulator/Example.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Example.app/Default@2x.pngb98b54e27730b741^a74056e27730b741^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Default@2x.png000000000080d041^670"CpResource "Example/Default@2x.png" "build/Debug-iphonesimulator/Example.app/Default@2x.png"    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Default@2x.png" /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app36"6A390D14-4475-47AF-9EC2-DCE8F6786D6D-
+
+CGenerateDSYMFile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYM /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example
+s389054666.664432
+e389054666.685107
+r1
+xGenerateDSYMFile
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYM
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generate /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYMe127aaca8030b741^c762afca8030b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYM/0000000000000000^706"GenerateDSYMFile build/Debug-iphonesimulator/Example.app.dSYM build/Debug-iphonesimulator/Example.app/Example    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app.dSYM36"855EF19D-F5C8-447C-8DEC-B3288D26E406-
+
+CLd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example normal i386
+s389054666.633678
+e389054666.657580
+r1
+xLd
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Examplebb47a2ca8030b741^9f57a8ca8030b741^---0#0#0#--1304"Ld build/Debug-iphonesimulator/Example.app/Example normal i386    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator -filelist /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/Example.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Example36"D89327DC-60FC-4B8C-8431-2995019521A8-
+
+CProcessInfoPlistFile /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Info.plist Example/Example-Info.plist
+s389052385.949796
+e389052385.952317
+r1
+xProcessInfoPlistFile
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Info.plist
+xExample/Example-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Example/Example-Info.plistd331f3e17730b741^1fd6f3e17730b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Example-Info.plist0000000000000000^731"ProcessInfoPlistFile build/Debug-iphonesimulator/Example.app/Info.plist Example/Example-Info.plist    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Example/Example-Info.plist -genpkginfo /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app/Info.plist36"82335147-759B-4BE3-90F5-BFB68F0541F3-
+
+CProcessPCH /Users/pixelrevision/Library/Developer/Xcode/DerivedData/Example-agzzlhyyzpvdflhcxzmoelnkdrhp/Index/PrecompiledHeaders/Example-Prefix-drwwpdxemgxncfflrtogqgjyrqee_ast/Example-Prefix.pch.pth Example/Example-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.pth Example/Example-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389052385.960280
+e389052386.144434
+r1
+xProcessPCH
+x/var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.pth
+xExample/Example-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Example/Example-Prefix.pch46eaf5e17730b741^12fb24e27730b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Example-Prefix.pch0000000000000000^3719"ProcessPCH /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.pth Example/Example-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -F/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.dia -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/Example/Example-Prefix.pch -o /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/6s/qtg1bbp91q1fgyyz_fdrjk4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Example-Prefix-fhqlwthdaykdcnavfcxrxannwgfd/Example-Prefix.pch.d36"A93CE102-D225-4064-B7AB-64C54BDF2EF6-
+
+CTouch /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app
+s389054666.701295
+e389054666.705843
+r1
+xTouch
+x/Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app3a92b3ca8030b741^31b2b4ca8030b741^---0#0#0#--442"Touch build/Debug-iphonesimulator/Example.app    cd /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pixelrevision/Projects/personal/ios_color_picker_2/Example/build/Debug-iphonesimulator/Example.app36"8C4BEA8D-AFDD-488D-814E-8AAA5384E974-
+

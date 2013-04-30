@@ -1,0 +1,1458 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>PXRColorPicker Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PXRColorPicker </a></h1>
+				<a id="developerHome" href="../index.html">pixelrevision</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PXRColorPicker Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/alphaSlider">&nbsp;&nbsp;&nbsp;&nbsp;alphaSlider</option>
+	
+	<option value="//api/name/brightnessIncrement">&nbsp;&nbsp;&nbsp;&nbsp;brightnessIncrement</option>
+	
+	<option value="//api/name/colorLed">&nbsp;&nbsp;&nbsp;&nbsp;colorLed</option>
+	
+	<option value="//api/name/colorWheel">&nbsp;&nbsp;&nbsp;&nbsp;colorWheel</option>
+	
+	<option value="//api/name/currentColor">&nbsp;&nbsp;&nbsp;&nbsp;currentColor</option>
+	
+	<option value="//api/name/darkerButton">&nbsp;&nbsp;&nbsp;&nbsp;darkerButton</option>
+	
+	<option value="//api/name/defaultsPrefix">&nbsp;&nbsp;&nbsp;&nbsp;defaultsPrefix</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/dragLed">&nbsp;&nbsp;&nbsp;&nbsp;dragLed</option>
+	
+	<option value="//api/name/lighterButton">&nbsp;&nbsp;&nbsp;&nbsp;lighterButton</option>
+	
+	<option value="//api/name/swatches">&nbsp;&nbsp;&nbsp;&nbsp;swatches</option>
+	
+	<option value="//api/name/tintSlider">&nbsp;&nbsp;&nbsp;&nbsp;tintSlider</option>
+	
+	<option value="//api/name/wheelLed">&nbsp;&nbsp;&nbsp;&nbsp;wheelLed</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/changeAlpha:">&nbsp;&nbsp;&nbsp;&nbsp;- changeAlpha:</option>
+	
+	<option value="//api/name/changeColorFromSwatch:">&nbsp;&nbsp;&nbsp;&nbsp;- changeColorFromSwatch:</option>
+	
+	<option value="//api/name/changeHue:">&nbsp;&nbsp;&nbsp;&nbsp;- changeHue:</option>
+	
+	<option value="//api/name/darker:">&nbsp;&nbsp;&nbsp;&nbsp;- darker:</option>
+	
+	<option value="//api/name/lighter:">&nbsp;&nbsp;&nbsp;&nbsp;- lighter:</option>
+	
+	<option value="//api/name/onCancel:">&nbsp;&nbsp;&nbsp;&nbsp;- onCancel:</option>
+	
+	<option value="//api/name/onOk:">&nbsp;&nbsp;&nbsp;&nbsp;- onOk:</option>
+	
+	<option value="//api/name/saveColors">&nbsp;&nbsp;&nbsp;&nbsp;- saveColors</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alphaSlider">alphaSlider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/brightnessIncrement">brightnessIncrement</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/colorLed">colorLed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/colorWheel">colorWheel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentColor">currentColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/darkerButton">darkerButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultsPrefix">defaultsPrefix</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dragLed">dragLed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lighterButton">lighterButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swatches">swatches</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tintSlider">tintSlider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/wheelLed">wheelLed</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/changeAlpha:">changeAlpha:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/changeColorFromSwatch:">changeColorFromSwatch:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/changeHue:">changeHue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/darker:">darker:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lighter:">lighter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCancel:">onCancel:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onOk:">onOk:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveColors">saveColors</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="PXRColorPicker Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PXRColorPicker Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIViewController</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/PXRColorWheelDelegate.html">PXRColorWheelDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">PXRColorPicker.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A view controller for picking colors in an ios application.</p>
+
+<p>  
+<strong>Example Usage:</strong><br/>  
+<code>  
+<pre>  
+- (IBAction)openColorPicker:(UIButton*)sender{  
+    PXRColorPicker *colorPicker = [[PXRColorPicker alloc] init];  
+    colorPicker.delegate = self;  
+    [self presentViewController:colorPicker animated:YES completion:^{}];  
+}  
+  
+- (void)colorPicker:(PXRColorPicker *)colorPicker pickedColor:(UIColor *)color{  
+    NSLog(@"picked color %@", color);  
+    [self dismissViewControllerAnimated:YES completion:^{}];  
+}  
+  
+- (void)colorPickerCancelled:(PXRColorPicker *)colorPicker{  
+    [self dismissViewControllerAnimated:YES completion:^{}];  
+}  
+</pre>  
+</code>  
+</p>
+
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		<span class="tooltip"><p>The delegate for the color picker. See <a href="../Protocols/PXRColorPickerDelegate.html">PXRColorPickerDelegate</a> for more info.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentColor">&nbsp;&nbsp;currentColor</a></code>
+		<span class="tooltip"><p>The current UIColor in the picker has selected.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultsPrefix">&nbsp;&nbsp;defaultsPrefix</a></code>
+		<span class="tooltip"><p>A prefix to use for NSUserDefaults that will define what the naming convention of the saving of <a href="#//api/name/swatches">swatches</a> and the main color.<br /> Setting this to a unique string per document can let the user have a picker with <a href="#//api/name/swatches">swatches</a> and a main color that are unique to that document.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/brightnessIncrement">&nbsp;&nbsp;brightnessIncrement</a></code>
+		<span class="tooltip"><p>The amount of steps the lighter and darker buttons will go by for setting brightness.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swatches">&nbsp;&nbsp;swatches</a></code>
+		<span class="tooltip"><p>An array of UIButtons to use as swatches. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alphaSlider">&nbsp;&nbsp;alphaSlider</a></code>
+		<span class="tooltip"><p>A UISlider to be used to set the opacity of the color. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tintSlider">&nbsp;&nbsp;tintSlider</a></code>
+		<span class="tooltip"><p>A UISlider to be used to set the hue of the color. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/colorWheel">&nbsp;&nbsp;colorWheel</a></code>
+		<span class="tooltip"><p>A <a href="../Classes/PXRColorWheel.html">PXRColorWheel</a> that will update the color when the user moves a finger over it. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/wheelLed">&nbsp;&nbsp;wheelLed</a></code>
+		<span class="tooltip"><p>A UIImageView the LED that appears over the <a href="#//api/name/tintSlider">tintSlider</a> that will show the user where they have selected. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/colorLed">&nbsp;&nbsp;colorLed</a></code>
+		<span class="tooltip"><p>A UIView that shows the main color. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dragLed">&nbsp;&nbsp;dragLed</a></code>
+		<span class="tooltip"><p>A UIView that shows when the user has tapped on the main LED. Dragging over a swatch will let the user set that swatch. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/darkerButton">&nbsp;&nbsp;darkerButton</a></code>
+		<span class="tooltip"><p>A UIButton that a user can tap to make the color darker. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lighterButton">&nbsp;&nbsp;lighterButton</a></code>
+		<span class="tooltip"><p>A UIButton that a user can tap to make the color lighter. For use in a custom nib.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/changeHue:">&ndash;&nbsp;changeHue:</a></code>
+		<span class="tooltip"><p>Changes the hue of the main color.  Can be hooked up to the <a href="#//api/name/tintSlider">tintSlider</a> UIControlEventValueChanged event.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/changeAlpha:">&ndash;&nbsp;changeAlpha:</a></code>
+		<span class="tooltip"><p>Changes the opacity of the main color.  Can be hooked up to the <a href="#//api/name/alphaSlider">alphaSlider</a> UIControlEventValueChanged event.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/changeColorFromSwatch:">&ndash;&nbsp;changeColorFromSwatch:</a></code>
+		<span class="tooltip"><p>Changes the color to the background color of a swatch.  Can be hooked up to each of the UIControlEventTouchUpInside events in for <a href="#//api/name/swatches">swatches</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onOk:">&ndash;&nbsp;onOk:</a></code>
+		<span class="tooltip"><p>Notifies the <a href="#//api/name/delegate">delegate</a> that the picker has picked a color. By default hooked up to a &ldquo;done&rdquo; button.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCancel:">&ndash;&nbsp;onCancel:</a></code>
+		<span class="tooltip"><p>Notifies the <a href="#//api/name/delegate">delegate</a> that the picker has cancelled picking. By default hooked up to a &ldquo;cancel&rdquo; button.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/darker:">&ndash;&nbsp;darker:</a></code>
+		<span class="tooltip"><p>Darkens the color by the amount of steps set in <a href="#//api/name/brightnessIncrement">brightnessIncrement</a>. Can be hooked up to the <a href="#//api/name/darkerButton">darkerButton</a> UIControlEventTouchUpInside event.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lighter:">&ndash;&nbsp;lighter:</a></code>
+		<span class="tooltip"><p>Lightens the color by the amount of steps set in <a href="#//api/name/brightnessIncrement">brightnessIncrement</a>. Can be hooked up to the <a href="#//api/name/lighterButton">lighterButton</a> UIControlEventTouchUpInside event.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveColors">&ndash;&nbsp;saveColors</a></code>
+		<span class="tooltip"><p>Saves the colors and <a href="#//api/name/swatches">swatches</a> to NSUserDefaults using <a href="#//api/name/defaultsPrefix">defaultsPrefix</a>.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/alphaSlider" title="alphaSlider"></a>
+	<h3 class="subsubtitle method-title">alphaSlider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UISlider to be used to set the opacity of the color. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet UISlider *alphaSlider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UISlider to be used to set the opacity of the color. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/brightnessIncrement" title="brightnessIncrement"></a>
+	<h3 class="subsubtitle method-title">brightnessIncrement</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The amount of steps the lighter and darker buttons will go by for setting brightness.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property NSUInteger brightnessIncrement</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The amount of steps the lighter and darker buttons will go by for setting brightness.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/colorLed" title="colorLed"></a>
+	<h3 class="subsubtitle method-title">colorLed</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UIView that shows the main color. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet UIView *colorLed</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UIView that shows the main color. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/colorWheel" title="colorWheel"></a>
+	<h3 class="subsubtitle method-title">colorWheel</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A <a href="../Classes/PXRColorWheel.html">PXRColorWheel</a> that will update the color when the user moves a finger over it. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet PXRColorWheel *colorWheel</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A <a href="../Classes/PXRColorWheel.html">PXRColorWheel</a> that will update the color when the user moves a finger over it. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentColor" title="currentColor"></a>
+	<h3 class="subsubtitle method-title">currentColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current UIColor in the picker has selected.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, readonly) UIColor *currentColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The current UIColor in the picker has selected.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/darkerButton" title="darkerButton"></a>
+	<h3 class="subsubtitle method-title">darkerButton</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UIButton that a user can tap to make the color darker. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet UIButton *darkerButton</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UIButton that a user can tap to make the color darker. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultsPrefix" title="defaultsPrefix"></a>
+	<h3 class="subsubtitle method-title">defaultsPrefix</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A prefix to use for NSUserDefaults that will define what the naming convention of the saving of <a href="#//api/name/swatches">swatches</a> and the main color.<br /> Setting this to a unique string per document can let the user have a picker with <a href="#//api/name/swatches">swatches</a> and a main color that are unique to that document.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong) NSString *defaultsPrefix</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A prefix to use for NSUserDefaults that will define what the naming convention of the saving of <a href="#//api/name/swatches">swatches</a> and the main color.<br /> Setting this to a unique string per document can let the user have a picker with <a href="#//api/name/swatches">swatches</a> and a main color that are unique to that document.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The delegate for the color picker. See <a href="../Protocols/PXRColorPickerDelegate.html">PXRColorPickerDelegate</a> for more info.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) NSObject&lt;PXRColorPickerDelegate&gt; *delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The delegate for the color picker. See <a href="../Protocols/PXRColorPickerDelegate.html">PXRColorPickerDelegate</a> for more info.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dragLed" title="dragLed"></a>
+	<h3 class="subsubtitle method-title">dragLed</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UIView that shows when the user has tapped on the main LED. Dragging over a swatch will let the user set that swatch. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong) IBOutlet UIView *dragLed</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UIView that shows when the user has tapped on the main LED. Dragging over a swatch will let the user set that swatch. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lighterButton" title="lighterButton"></a>
+	<h3 class="subsubtitle method-title">lighterButton</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UIButton that a user can tap to make the color lighter. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet UIButton *lighterButton</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UIButton that a user can tap to make the color lighter. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swatches" title="swatches"></a>
+	<h3 class="subsubtitle method-title">swatches</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An array of UIButtons to use as swatches. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong) IBOutletCollection ( UIButton ) NSArray *swatches</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An array of UIButtons to use as swatches. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tintSlider" title="tintSlider"></a>
+	<h3 class="subsubtitle method-title">tintSlider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UISlider to be used to set the hue of the color. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet UISlider *tintSlider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UISlider to be used to set the hue of the color. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/wheelLed" title="wheelLed"></a>
+	<h3 class="subsubtitle method-title">wheelLed</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A UIImageView the LED that appears over the <a href="#//api/name/tintSlider">tintSlider</a> that will show the user where they have selected. For use in a custom nib.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak) IBOutlet UIImageView *wheelLed</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A UIImageView the LED that appears over the <a href="#//api/name/tintSlider">tintSlider</a> that will show the user where they have selected. For use in a custom nib.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/changeAlpha:" title="changeAlpha:"></a>
+	<h3 class="subsubtitle method-title">changeAlpha:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Changes the opacity of the main color.  Can be hooked up to the <a href="#//api/name/alphaSlider">alphaSlider</a> UIControlEventValueChanged event.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)changeAlpha:(UISlider *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UISlider sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Changes the opacity of the main color.  Can be hooked up to the <a href="#//api/name/alphaSlider">alphaSlider</a> UIControlEventValueChanged event.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/changeColorFromSwatch:" title="changeColorFromSwatch:"></a>
+	<h3 class="subsubtitle method-title">changeColorFromSwatch:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Changes the color to the background color of a swatch.  Can be hooked up to each of the UIControlEventTouchUpInside events in for <a href="#//api/name/swatches">swatches</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)changeColorFromSwatch:(UIButton *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UIButton sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Changes the color to the background color of a swatch.  Can be hooked up to each of the UIControlEventTouchUpInside events in for <a href="#//api/name/swatches">swatches</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/changeHue:" title="changeHue:"></a>
+	<h3 class="subsubtitle method-title">changeHue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Changes the hue of the main color.  Can be hooked up to the <a href="#//api/name/tintSlider">tintSlider</a> UIControlEventValueChanged event.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)changeHue:(UISlider *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UISlider sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Changes the hue of the main color.  Can be hooked up to the <a href="#//api/name/tintSlider">tintSlider</a> UIControlEventValueChanged event.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/darker:" title="darker:"></a>
+	<h3 class="subsubtitle method-title">darker:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Darkens the color by the amount of steps set in <a href="#//api/name/brightnessIncrement">brightnessIncrement</a>. Can be hooked up to the <a href="#//api/name/darkerButton">darkerButton</a> UIControlEventTouchUpInside event.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)darker:(UIButton *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UIButton sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Darkens the color by the amount of steps set in <a href="#//api/name/brightnessIncrement">brightnessIncrement</a>. Can be hooked up to the <a href="#//api/name/darkerButton">darkerButton</a> UIControlEventTouchUpInside event.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lighter:" title="lighter:"></a>
+	<h3 class="subsubtitle method-title">lighter:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Lightens the color by the amount of steps set in <a href="#//api/name/brightnessIncrement">brightnessIncrement</a>. Can be hooked up to the <a href="#//api/name/lighterButton">lighterButton</a> UIControlEventTouchUpInside event.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)lighter:(UIButton *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UIButton sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Lightens the color by the amount of steps set in <a href="#//api/name/brightnessIncrement">brightnessIncrement</a>. Can be hooked up to the <a href="#//api/name/lighterButton">lighterButton</a> UIControlEventTouchUpInside event.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCancel:" title="onCancel:"></a>
+	<h3 class="subsubtitle method-title">onCancel:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the <a href="#//api/name/delegate">delegate</a> that the picker has cancelled picking. By default hooked up to a &ldquo;cancel&rdquo; button.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)onCancel:(UIButton *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UIButton sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the <a href="#//api/name/delegate">delegate</a> that the picker has cancelled picking. By default hooked up to a &ldquo;cancel&rdquo; button.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onOk:" title="onOk:"></a>
+	<h3 class="subsubtitle method-title">onOk:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the <a href="#//api/name/delegate">delegate</a> that the picker has picked a color. By default hooked up to a &ldquo;done&rdquo; button.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (IBAction)onOk:(UIButton *)<em>sender</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sender</em></dt>
+			<dd><p>The UIButton sending the update.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the <a href="#//api/name/delegate">delegate</a> that the picker has picked a color. By default hooked up to a &ldquo;done&rdquo; button.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveColors" title="saveColors"></a>
+	<h3 class="subsubtitle method-title">saveColors</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Saves the colors and <a href="#//api/name/swatches">swatches</a> to NSUserDefaults using <a href="#//api/name/defaultsPrefix">defaultsPrefix</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)saveColors</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Saves the colors and <a href="#//api/name/swatches">swatches</a> to NSUserDefaults using <a href="#//api/name/defaultsPrefix">defaultsPrefix</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">PXRColorPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 pixelrevision. All rights reserved. (Last updated: 2013-04-30)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
